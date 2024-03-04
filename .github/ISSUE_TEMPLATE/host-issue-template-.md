@@ -16,10 +16,11 @@ assignees: ''
 **When**
 **Then**
 
----
+
 
 <details>
 <summary> Global Scenarios </summary>
+
 
 
 **Saving, Cancelling and Reverting** 
@@ -40,21 +41,14 @@ When I click the save button and the data is valid,
 Then I should receive a confirmation message indicating my @@@ form  has been successfully updated.
 
 
----
-
-
 **Internet Connection**
-
 
 **Scenario 1:  Standard Internet Connection** 
 Given that I am a user accessing the website from a standard internet connection,
 When I navigate to any page on the site,
 Then the page should load completely within 2 seconds, ensuring a fast and efficient user experience.
 
-
-
 **Scenario 2: Optimizing Dashboard for Users with Low Internet Connectivity**
-
 Given a host accesses the @@@ form with a low-speed internet connection.
 When the user attempts to load and interact with the dashboard page.
 Then the @@@ form should prioritize critical content and functionality, loading essential elements first to ensure usability.
@@ -62,33 +56,27 @@ And the page should implement efficient data usage strategies, such as compressi
 And the interface should provide feedback on loading progress for interactive elements, informing users of the current status and expected wait times.
 And an option should be available for users to access a more simplified version of the dashboard that requires less bandwidth, ensuring that users can perform their necessary tasks even under constrained internet conditions.
 
----
 
-**Security and privacy**
+ **Security and privacy**
 
 **Scenario 1: Security and Privacy Settings**
 Given that I am editing @@@ form, 
 When I access the form,
 Then I should also have the option to update my privacy settings related to who can view @@@ form.
 
-
-
 **Scenario 2: Secure my information** 
 Given that I am a user entering personal or login information @@@ form,
 When I submit this information through any form or login page,
 Then the platform should encrypt this data during transmission and storage, ensuring it is safeguarded against interception or unauthorized access.
 
---- 
+
 **Mobile Responsiveness**
 
 **Scenario 1: Mobile Responsiveness**
-
 Given that I am accessing the @@@ form on a mobile device,
 When I click on the "@@@" link,
 Then the @@@ form should display correctly and be easily editable on my device, ensuring a responsive design. 
 </details>
-
----
 
 <details>
 <summary> Accessibility Scenarios </summary>
@@ -112,9 +100,6 @@ Then the dropdown should expand and allow me to navigate the options
 
 And when I select an option using the Enter key
 Then the selected option should be applied
-
-
-
 
 **Scenario: Using the "Skip to Main Content" link**
 Given the "Skip to Main Content" link is the first focusable element
@@ -141,15 +126,13 @@ Then the option is selected
 And the dropdown collapses
 
 **Scenario: Closing modals using the Escape key**
-
 Given a modal window is open and focused
 When the user presses the "Escape" key
 Then the modal closes
 And focus returns to the element that opened the modal
 
 **Scenario:  Scenario: Navigating paginated content using keyboard shortcuts**
- 
-Given the user is viewing a page with paginated content
+ Given the user is viewing a page with paginated content
 When the user presses a predefined keyboard shortcut for "next page"
 Then the next page of content is displayed
 And focus is set to the top of the new page content
@@ -158,11 +141,8 @@ Then the previous page of content is displayed
 And focus is set to the top of the new page content
 
 
-
----
 **Color Contrast**
 
-Feature: ______ Accessibility for Color-Blind Users
 Scenario: Ensuring ______ Usability with Color-Blind Friendly Design
 Given I am a user with color vision deficiency
 And I am viewing the ______
@@ -185,12 +165,10 @@ Given the ______ includes interactive elements like buttons or links
 When these elements are focused or hovered over
 Then they should have clear focus indicators that do not rely solely on color changes
 
----
 
 **Color Blind**
 
 Scenario: Ensuring Usability with Color-Blind Friendly Design
-
 Given I am a user with color vision deficiency
 And I am viewing the _______
 When I look at charts and graphs
@@ -210,8 +188,6 @@ And the selected palette should override default colors to enhance visibility an
 Given the _______includes interactive elements like buttons or links
 When these elements are focused or hovered over
 Then they should have clear focus indicators that do not rely solely on color changes
-
----
 
 
 https://www2.gov.bc.ca/gov/content/home/accessible-government/toolkit/accessible-digital-content/colour-contrast
