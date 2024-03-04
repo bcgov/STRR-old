@@ -11,9 +11,9 @@ assignees: ''
 **I want**
 **So that**
 
-- [ ] Scenario 1: 
-**Given**
-**When**
+- [ ] Scenario 1: Authenticated and logged in to STR 
+**Given** the host has been authenticated via SBC Connect 
+**When** 
 **Then**
 
 
