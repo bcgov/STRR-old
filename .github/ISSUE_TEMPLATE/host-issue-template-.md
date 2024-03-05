@@ -193,3 +193,6 @@ Then they should have clear focus indicators that do not rely solely on color ch
 https://www2.gov.bc.ca/gov/content/home/accessible-government/toolkit/accessible-digital-content/colour-contrast
 
 </details>
+
+> [!NOTE]
+Story in Mural:
