@@ -44,17 +44,17 @@ Then I should receive a confirmation message indicating my @@@ form  has been su
 **Internet Connection**
 
 **Scenario 1:  Standard Internet Connection** 
-Given that I am a user accessing the website from a standard internet connection,
+Given that I am a host accessing the website from a standard internet connection,
 When I navigate to any page on the site,
-Then the page should load completely within 2 seconds, ensuring a fast and efficient user experience.
+Then the page should load completely within 2 seconds, ensuring a fast and efficient host experience.
 
-**Scenario 2: Optimizing Dashboard for Users with Low Internet Connectivity**
+**Scenario 2: Optimizing Dashboard for Hosts with Low Internet Connectivity**
 Given a host accesses the @@@ form with a low-speed internet connection.
-When the user attempts to load and interact with the dashboard page.
+When the host attempts to load and interact with the dashboard page.
 Then the @@@ form should prioritize critical content and functionality, loading essential elements first to ensure usability.
 And the page should implement efficient data usage strategies, such as compressing images, using caching for repeat visits, and minimizing the load of heavy scripts.
-And the interface should provide feedback on loading progress for interactive elements, informing users of the current status and expected wait times.
-And an option should be available for users to access a more simplified version of the dashboard that requires less bandwidth, ensuring that users can perform their necessary tasks even under constrained internet conditions.
+And the interface should provide feedback on loading progress for interactive elements, informing hosts of the current status and expected wait times.
+And an option should be available for hosts to access a more simplified version of the dashboard that requires less bandwidth, ensuring that hosts can perform their necessary tasks even under constrained internet conditions.
 
 
  **Security and privacy**
@@ -65,7 +65,7 @@ When I access the form,
 Then I should also have the option to update my privacy settings related to who can view @@@ form.
 
 **Scenario 2: Secure my information** 
-Given that I am a user entering personal or login information @@@ form,
+Given that I am a host entering personal or login information @@@ form,
 When I submit this information through any form or login page,
 Then the platform should encrypt this data during transmission and storage, ensuring it is safeguarded against interception or unauthorized access.
 
@@ -84,7 +84,7 @@ Then the @@@ form should display correctly and be easily editable on my device, 
 
 
 Scenario: Navigating the page Using Keyboard Only
-Given I am a non-mouse user accessing _______________________________
+Given I am a non-mouse host accessing _______________________________
 And the ______________ has loaded completely
 When I press the Tab key on my keyboard
 Then the focus should move to the next interactive element on the dashboard
@@ -103,40 +103,40 @@ Then the selected option should be applied
 
 **Scenario: Using the "Skip to Main Content" link**
 Given the "Skip to Main Content" link is the first focusable element
-When the user presses the "Tab" key once
-And the user presses the "Enter" key
+When the host presses the "Tab" key once
+And the host presses the "Enter" key
 Then the focus moves directly to the main content area
 
  **Scenario: Scenario: Interacting with form fields using the keyboard**
-Given the user has navigated to a form with multiple input fields
-When the user presses the "Tab" key to navigate through the input fields
+Given the host has navigated to a form with multiple input fields
+When the host presses the "Tab" key to navigate through the input fields
 And enters data using the keyboard
 And presses the "Enter" key after filling out the form
 Then the form data is submitted
-And the user receives confirmation through keyboard-accessible feedback
+And the host receives confirmation through keyboard-accessible feedback
 
  **Scenario: Scenario: Navigating dropdown menus using arrow keys**
-Given the user has focused on a dropdown menu
-When the user presses the "Down Arrow" key
+Given the host has focused on a dropdown menu
+When the host presses the "Down Arrow" key
 Then the dropdown expands
 
-And the user can navigate the options with the "Up Arrow" and "Down Arrow" keys
-When the user presses the "Enter" key on an option
+And the host can navigate the options with the "Up Arrow" and "Down Arrow" keys
+When the host presses the "Enter" key on an option
 Then the option is selected
 And the dropdown collapses
 
 **Scenario: Closing modals using the Escape key**
 Given a modal window is open and focused
-When the user presses the "Escape" key
+When the host presses the "Escape" key
 Then the modal closes
 And focus returns to the element that opened the modal
 
 **Scenario:  Scenario: Navigating paginated content using keyboard shortcuts**
- Given the user is viewing a page with paginated content
-When the user presses a predefined keyboard shortcut for "next page"
+ Given the host is viewing a page with paginated content
+When the host presses a predefined keyboard shortcut for "next page"
 Then the next page of content is displayed
 And focus is set to the top of the new page content
-When the user presses a predefined keyboard shortcut for "previous page"
+When the host presses a predefined keyboard shortcut for "previous page"
 Then the previous page of content is displayed
 And focus is set to the top of the new page content
 
@@ -144,7 +144,7 @@ And focus is set to the top of the new page content
 **Color Contrast**
 
 Scenario: Ensuring ______ Usability with Color-Blind Friendly Design
-Given I am a user with color vision deficiency
+Given I am a host with color vision deficiency
 And I am viewing the ______
 
 When I look at charts and graphs
@@ -169,7 +169,7 @@ Then they should have clear focus indicators that do not rely solely on color ch
 **Color Blind**
 
 Scenario: Ensuring Usability with Color-Blind Friendly Design
-Given I am a user with color vision deficiency
+Given I am a host with color vision deficiency
 And I am viewing the _______
 When I look at charts and graphs
 Then they should use patterns or shapes, in addition to colors, to distinguish data points
