@@ -7,21 +7,26 @@ assignees: ''
 
 ---
 
+<!-- 👇 [PO/BA] - Define the role, feature/action, and benefit/outcome clearly to outline the purpose of this issue. -->
+
 # 📖 User Story
 🔹 **As an [role],**  
 🔹 **I want [Feature/Action],**  
 🔹 **so that [Benefit/Outcome].**
-<!-- 💬 [PO/BA] - Define the role, feature/action, and benefit/outcome clearly to outline the purpose of this issue. -->
 
-## 🌐 Mural Links
-<!-- 🔗 [PO/BA] - Link to relevant Mural boards for visual context. -->
+
+<!-- 👇 [PO/BA] - Link to relevant Mural boards for visual context. -->
+
+## 🔗 Mural Links
 Story in Mural: [Insert link to the story or additional context here]
 
-## 🔧 Parameters Definition
-<details>
-<summary>Click to view parameter definitions 🛠️</summary>
 
-<!-- 📝 [PO/BA] - Complete these parameters to clarify the scope and specific needs of the story. -->
+<!-- 👇[PO/BA] - Complete these parameters to clarify the scope and specific needs of the story. -->
+
+## 🛠️ Parameters Definition
+<details>
+<summary>Click to view parameter definitions </summary>
+
 - **[Role]**: User role or persona targeted by this issue.
 - **[Feature/Action]**: Action or feature being requested.
 - **[Benefit/Outcome]**: Expected benefit or outcome from implementing the feature/action.
@@ -36,22 +41,27 @@ Story in Mural: [Insert link to the story or additional context here]
 
 </details>
 
+
+<!-- 👇 - Enumerate the business rules or logic that directly influence this issue. -->
+
 ## 📏 Business Rules
 <details>
-<summary>Add Business Rules here 👇</summary>
+<summary>view rules </summary>
 
-<!-- 📘 [Fiona/BA] - Enumerate the business rules or logic that directly influence this issue. -->
 - [ ] Add Business Rule here
 - [ ] Add Business Rule here
 - [ ] Add Business Rule here
 
 </details>
 
+
+<!-- 👇 [PO/BA] - Outline detailed scenarios related to this story for QA to focus on. -->
+
 ## 🎭 Story Scenarios
 <details>
-<summary>Click to add story specific scenarios here 📝</summary>
+<summary>see specific story scenarios </summary>
 
-<!-- ✅ [PO/BA] - Outline detailed scenarios related to this story for QA to focus on. -->
+
 ### Scenario 1: Authenticated and Logged in to STR
 - **Given** the user has been authenticated via SBC Connect
 - **When** [Specific Action]
@@ -59,11 +69,14 @@ Story in Mural: [Insert link to the story or additional context here]
 
 </details>
 
+
+<!-- 👇 [PO/BA] - Review these scenarios with QA to ensure they match testing requirements. Do not alter until discussed. -->
+
 ## 🌍 Global Scenarios
 <details>
-<summary>Click to see global scenarios 🔄</summary>
+<summary>click to see global scenarios</summary>
 
-<!-- 🌟 [PO/BA] - Review these scenarios with QA to ensure they match testing requirements. Do not alter until discussed. -->
+
 ### Saving, Cancelling, and Reverting
 #### Scenario 1: Cancellation and Reverting Changes
 - **Given** I have made changes to [Form Name] but decide not to save these changes
@@ -113,11 +126,15 @@ Story in Mural: [Insert link to the story or additional context here]
 
 </details>
 
-## 🚦 Accessibility Scenarios
-<details>
-<summary>Click to view accessibility scenarios 🦺</summary>
 
-<!-- 🚸 [PO/BA] - Verify these scenarios to ensure the feature/story is accessible to all users. -->
+
+<!--  👇[PO/BA] - Verify these scenarios to ensure the feature/story is accessible to all users. -->
+
+## 🌐  Accessibility Scenarios
+<details>
+<summary>Click to view accessibility scenarios </summary>
+
+
 ### Scenario: Navigating the Page Using Keyboard Only
 - **Given** I am a non-mouse user accessing [Specific Page]
 - **When** I use keyboard navigation (Tab, Shift + Tab, Enter, Arrow keys)
