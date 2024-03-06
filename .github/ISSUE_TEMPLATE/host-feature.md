@@ -3,7 +3,7 @@ name: Host Feature
 about: Host Feature Template
 title: "[FEATURE] - [ADD TITLE ] - [Brief Description]"
 labels: STR
-assignees: ''
+assignees: mbertucci
 
 ---
 
@@ -17,7 +17,7 @@ assignees: ''
 
 <!-- 👇 [PO/BA] - Link to relevant Mural boards for visual context. -->
 
-## 🔗 Mural Links
+### 🔗 Mural Links
 Story in Mural: [Insert link to the story or additional context here]
 
 
@@ -25,7 +25,7 @@ Story in Mural: [Insert link to the story or additional context here]
 
 ## 🛠️ Parameters Definition
 <details>
-<summary>Click to view parameter definitions </summary>
+<summary>click to view parameter definitions </summary>
 
 - **[Role]**: User role or persona targeted by this issue.
 - **[Feature/Action]**: Action or feature being requested.
@@ -46,7 +46,7 @@ Story in Mural: [Insert link to the story or additional context here]
 
 ## 📏 Business Rules
 <details>
-<summary>view rules </summary>
+<summary>click to view rules </summary>
 
 - [ ] Add Business Rule here
 - [ ] Add Business Rule here
@@ -132,7 +132,7 @@ Story in Mural: [Insert link to the story or additional context here]
 
 ## 🌐  Accessibility Scenarios
 <details>
-<summary>Click to view accessibility scenarios </summary>
+<summary>click to view accessibility scenarios </summary>
 
 
 ### Scenario: Navigating the Page Using Keyboard Only
