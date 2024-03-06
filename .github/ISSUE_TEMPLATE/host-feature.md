@@ -1,26 +1,27 @@
 ---
 name: Host Feature
 about: Host Feature Template
-title: "[FEATURE] - [ADD Title ] - [Brief Description]"
+title: "[FEATURE] - [ADD TITLE ] - [Brief Description]"
 labels: STR
 assignees: ''
 
 ---
 
-# User Story
+# 📖 User Story
 🔹 **As an [role],**  
 🔹 **I want [Feature/Action],**  
 🔹 **so that [Benefit/Outcome].**
+<!-- 💬 [PO/BA] - Define the role, feature/action, and benefit/outcome clearly to outline the purpose of this issue. -->
 
-<!-- LEAVE THIS SECTION ALONE FOR NOW AS WE NEED TO REVIEW IT WITH THE QA PERSON  -->
-
-## Mural Links
+## 🌐 Mural Links
+<!-- 🔗 [PO/BA] - Link to relevant Mural boards for visual context. -->
 Story in Mural: [Insert link to the story or additional context here]
 
-## Parameters Definition
+## 🔧 Parameters Definition
 <details>
-<summary>parameter definitions</summary>
+<summary>Click to view parameter definitions 🛠️</summary>
 
+<!-- 📝 [PO/BA] - Complete these parameters to clarify the scope and specific needs of the story. -->
 - **[Role]**: User role or persona targeted by this issue.
 - **[Feature/Action]**: Action or feature being requested.
 - **[Benefit/Outcome]**: Expected benefit or outcome from implementing the feature/action.
@@ -35,48 +36,35 @@ Story in Mural: [Insert link to the story or additional context here]
 
 </details>
 
-<!-- END OF PARAMETERS SECTION -->
-
-
-## Business Rules
+## 📏 Business Rules
 <details>
-<summary>Add Business Rules here</summary>
+<summary>Add Business Rules here 👇</summary>
 
-<!-- FIONA ADD BUSINESS RULES  -->
-
-
+<!-- 📘 [Fiona/BA] - Enumerate the business rules or logic that directly influence this issue. -->
 - [ ] Add Business Rule here
 - [ ] Add Business Rule here
 - [ ] Add Business Rule here
 
 </details>
 
-</details>
-
-## Story Scenarios 
+## 🎭 Story Scenarios
 <details>
-<summary>add story specific scenarios here</summary
+<summary>Click to add story specific scenarios here 📝</summary>
 
-<!-- ADD STORY SPECIFIC SCENARIOS  -->
-
-
-Scenario 1: Authenticated and Logged in to STR
-
+<!-- ✅ [PO/BA] - Outline detailed scenarios related to this story for QA to focus on. -->
+### Scenario 1: Authenticated and Logged in to STR
 - **Given** the user has been authenticated via SBC Connect
 - **When** [Specific Action]
 - **Then** [Expected Result]
 
-
 </details>
 
-<!--  WE NEED TO REVIEW THE STRUCTURE/TEMPLATE OF THE FOLLOWING STORIES WITH A QA PERSON.  LET'S LEAVE THIS SECTION AS IS FOR NOW.  I AM NOT SURE IF WE FILL OUT THE PARAMETERS ABOVE AND THEN IT FILTERS THROUGH TO THIS SECTION WHEN TESTING OR IF THE QA PERSON DOES THIS   -->
-
-## Global Scenarios
+## 🌍 Global Scenarios
 <details>
-<summary> see global scenarios</summary>
+<summary>Click to see global scenarios 🔄</summary>
 
+<!-- 🌟 [PO/BA] - Review these scenarios with QA to ensure they match testing requirements. Do not alter until discussed. -->
 ### Saving, Cancelling, and Reverting
-
 #### Scenario 1: Cancellation and Reverting Changes
 - **Given** I have made changes to [Form Name] but decide not to save these changes
 - **When** I click a "cancel" button or navigate away from [Form Name]
@@ -125,12 +113,11 @@ Scenario 1: Authenticated and Logged in to STR
 
 </details>
 
-
-## Accessibility Scenarios
-
+## 🚦 Accessibility Scenarios
 <details>
-<summary>see accessibility scenarios</summary>
+<summary>Click to view accessibility scenarios 🦺</summary>
 
+<!-- 🚸 [PO/BA] - Verify these scenarios to ensure the feature/story is accessible to all users. -->
 ### Scenario: Navigating the Page Using Keyboard Only
 - **Given** I am a non-mouse user accessing [Specific Page]
 - **When** I use keyboard navigation (Tab, Shift + Tab, Enter, Arrow keys)
@@ -142,7 +129,6 @@ Scenario 1: Authenticated and Logged in to STR
 - **Navigating dropdown menus using arrow keys**
 - **Closing modals using the Escape key**
 - **Navigating paginated content using keyboard shortcuts**
-
 
 ### Scenario: Ensuring Usability with Color-Blind Friendly Design
 - **Given** I am a user with color vision deficiency
