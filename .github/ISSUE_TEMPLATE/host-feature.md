@@ -153,3 +153,27 @@ Story in Mural: [Insert link to the story or additional context here]
 - **Then** these elements should use patterns, shapes, and additional indicators beyond color to ensure usability and accessibility.
 
 </details>
+
+## 🎨 UX/UI Considerations
+<details>
+<summary>click to view UX/UI considerations </summary>
+
+<!-- 👇 [UX/UI] - Outline key design principles, user experience enhancements, or UI guidelines that should be considered for this story. -->
+
+### Layout and Aesthetics
+- **Design Principle**: Describe any specific design principles or themes that need to be incorporated.
+- **Visual Hierarchy**: Outline how information should be prioritized visually on the page.
+
+### Responsiveness and Adaptability
+- **Device Compatibility**: Ensure the design is responsive and adaptable across different devices and screen sizes.
+- **Orientation Adaptability**: Mention if the design should adapt to changes in device orientation.
+
+### User Flow and Interaction
+- **Navigation**: Describe the intended navigation path for users within this feature or page.
+- **User Actions**: Detail any specific user actions (e.g., clicks, swipes) and their expected outcomes.
+
+### Accessibility and Inclusivity
+- **Color Contrast**: Ensure sufficient color contrast for readability and accessibility.
+- **Interactive Elements**: Specify guidelines for button sizes, hit areas, and interactive element visibility.
+
+</details>
