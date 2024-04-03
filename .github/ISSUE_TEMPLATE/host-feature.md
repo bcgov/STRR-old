@@ -14,6 +14,32 @@ assignees: mbertucci
 🔹 **I want [Feature/Action],**  
 🔹 **so that [Benefit/Outcome].**
 
+<!-- 👇 - Enumerate the business rules or logic that directly influence this issue. -->
+
+## 📏 Business Rules
+<details>
+<summary>click to view rules </summary>
+
+- [ ] Add Business Rule here
+- [ ] Add Business Rule here
+- [ ] Add Business Rule here
+
+</details>
+
+
+<!-- 👇 [PO/BA] - Outline detailed scenarios related to this story for QA to focus on. -->
+
+## 🎭 Story Scenarios
+<details>
+<summary>see specific story scenarios </summary>
+
+
+### Scenario 1: Authenticated and Logged in to STR
+- **Given** the user has been authenticated via SBC Connect
+- **When** [Specific Action]
+- **Then** [Expected Result]
+
+</details>
 
 <!-- 👇 [PO/BA] - Link to relevant Mural boards for visual context. -->
 
@@ -42,32 +68,7 @@ Story in Mural: [Insert link to the story or additional context here]
 </details>
 
 
-<!-- 👇 - Enumerate the business rules or logic that directly influence this issue. -->
 
-## 📏 Business Rules
-<details>
-<summary>click to view rules </summary>
-
-- [ ] Add Business Rule here
-- [ ] Add Business Rule here
-- [ ] Add Business Rule here
-
-</details>
-
-
-<!-- 👇 [PO/BA] - Outline detailed scenarios related to this story for QA to focus on. -->
-
-## 🎭 Story Scenarios
-<details>
-<summary>see specific story scenarios </summary>
-
-
-### Scenario 1: Authenticated and Logged in to STR
-- **Given** the user has been authenticated via SBC Connect
-- **When** [Specific Action]
-- **Then** [Expected Result]
-
-</details>
 
 
 <!-- 👇 [PO/BA] - Review these scenarios with QA to ensure they match testing requirements. Do not alter until discussed. -->
